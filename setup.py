@@ -17,5 +17,5 @@ setup(
     author_email    = 'adrianpobiega@gmail.com',
     license         = 'MIT',
     classifiers     = classifiers,
-    scripts         = ['../bin/flick-mouse']
+    scripts         = ['flick-mouse']
 )
