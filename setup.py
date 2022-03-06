@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 
+try:
+    from setuptools import setup
+except ImportError:
+    from distutils.core import setup
+
 classifiers = ['Development Status :: 5 - Production/Stable',
                'Operating System :: POSIX :: Linux',
                'License :: OSI Approved :: MIT License',
