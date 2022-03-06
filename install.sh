@@ -71,9 +71,10 @@ if test "$j" != "kali" ;then
    cd Flick/flick
    python setup.py install
    python3 setup.py install
-
+   cd ..
+   cd ..
    echo 'setup and install Flick-Mouse'
-
+   
    python2 setup.py build && python2 setup.py install
    python3 setup.py build && python3 setup.py install
 
