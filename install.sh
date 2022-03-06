@@ -83,9 +83,7 @@ if test "$j" != "kali" ;then
 
    python2 setup.py build && python2 setup.py install
    python3 setup.py build && python3 setup.py install
-
-  cd /home/kali
-
+  
    whiptail --msgbox "The system will now reboot" 8 40
    reboot
 fi
