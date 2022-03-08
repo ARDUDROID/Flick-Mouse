@@ -22,6 +22,6 @@ setup(
     author_email    = 'adrianpobiega@gmail.com',
     license         = 'MIT',
     classifiers     = classifiers,
-    install_requires= ['RPI.GPIO']
+    install_requires= ['RPI.GPIO'],
     scripts         = ['flick-mouse']
 )
